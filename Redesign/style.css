@@ -1,0 +1,62 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+img {
+    margin-bottom: 50px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.col {
+    float: left;
+    width: 33.33%;
+    padding: 2px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.click-zoom input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom img {
+    margin: 100px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in
+  }
+  
+  .click-zoom input[type=checkbox]:checked~img {
+    transform: scale(2.1);
+    cursor: zoom-out
+  }
+img-disp{
+    margin:0;
+    padding:0;
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr
+    grid-template-rows;
+}

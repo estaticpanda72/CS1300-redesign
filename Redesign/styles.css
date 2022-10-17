@@ -1,0 +1,130 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background:linear-gradient(#E4E6DB,rgb(180, 174, 174));
+
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#585D60;
+    font-weight: 20%;
+    font-size: 8vw;
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#585D60;
+    font-weight: 600px;
+    font-size: 20px;
+}
+#Header{
+    display:flex;
+    justify-content: center;
+}
+
+.dummy_buttons{
+    background-color: #E7B025;
+    text-align: center;
+    min-width: 75px;
+    width: 8vw;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    height: 6vh;
+    margin: 7px;
+    padding: 12px;
+}
+.sketch-image{
+    width:20vw; 
+    height:20vw; 
+    border-radius: 10px; 
+  }
+#Intro_text{
+    width: 40vw;
+    flex-wrap: wrap;
+}
+
+.center{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  .center-edit{
+    display: flex;
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+
+#top-section{
+    display:flex;
+    /* justify-content:space-evenly; */
+  }
+
+#column1{
+  margin: 1em;
+  }
+
+#column2{
+  padding-top: 35px;
+  padding-right: 140px;
+  padding-left: 175px;
+}
+#column3{
+  padding: 20px 0px;
+}
+#middle-section{
+  background-color: #E7B025;
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    padding: 0px -100px;
+    flex-wrap: wrap;
+    margin: 1em; 
+    border: 2px solid #585D60;
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.links{
+  justify-content: space-evenly;
+}
+#bottom-section{
+    background-color: #E7B025;
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    padding: 30px 10px;
+   
+    margin: 1em; 
+    border: 2px solid #585D60;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+a:link {
+  color: #585D60;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(92, 32, 32);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
